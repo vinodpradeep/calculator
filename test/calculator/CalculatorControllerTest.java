@@ -30,6 +30,7 @@ public class CalculatorControllerTest {
 		controller.buttonPushed("3");
 		controller.buttonPushed("2");
 		controller.buttonPushed("0");
+		controller.buttonPushed("1");
 		assertEquals("023458null", model.getDisplay());
 		
 	}
